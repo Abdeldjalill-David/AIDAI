@@ -1,0 +1,15 @@
+chromadb>=0.3.20
+transformers>=4.30.0
+torch>=2.0.0
+sentence-transformers>=2.2.0
+tqdm>=4.65.0
+
+# Optional but recommended:
+# For faster downloads: pip install accelerate
+
+# For faster inference: pip install flash-attn
+# For GPU optimization: pip install bitsandbytes
+
+# Note: torch installation may vary by system
+# For GPU: pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+# For CPU: pip install torch torchvision torchaudio
